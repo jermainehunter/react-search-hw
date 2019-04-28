@@ -54,10 +54,9 @@ class App extends Component {
               <div className="card-body">
                 <h2 className="card-title">{each.volumeInfo.title}</h2>
                 <h6 className="card-title">
-                  Author: {each.volumeInfo.authors}</h6>
+                  Author/s: {each.volumeInfo.authors}</h6>
                 <p className="card-title">  Description: {each.volumeInfo.description}</p>
-                <p className="card-title">  Description: {each.volumeInfo.description}<br />
-                </p>
+                
                 <hr width="70%" />
               </div>
             </div>
